@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="adminpage" href="{{asset('css/adminpage.css')}}">
 
 @extends('ViewTemplate')
 
@@ -16,7 +17,7 @@
     <div>
         {{--Window for showing all users in the system--}}
         <h1>User information</h1>
-            <div>
+            <div style="padding-right: 15px; padding-bottom: 20px">
                 @foreach($data[1] as $item)
                     @include("components.listUsers",
                     ['userName'=>$item->name, 'userID'=>$item->id,
@@ -26,7 +27,7 @@
             </div>
     </div>
     <div>
-        <div>
+        <div style="padding: 0 0 10px 10px">
             {{--Window to add product--}}
             <h1>Create product</h1>
                 @include("components.createProduct")
@@ -46,7 +47,7 @@
             @endforeach
         </div>
     </div>
-    <div style="padding-left: 15px">
+    <div style="padding-left: 15px; padding-bottom: 40px">
         <h1>Orders</h1>
         {{--Window for showing all orders in the database--}}
         <div class="edit-main">

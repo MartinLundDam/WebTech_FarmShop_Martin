@@ -248,3 +248,23 @@ li, a {
     padding: 10px 10px 0 10px;
     border-radius: 20px;
 }
+
+.editProducts {
+    background-color: white;
+    padding: 10px 10px 0 10px;
+    border-radius: 20px;
+}
+
+.product_container {
+    display: inline-block;
+    margin: 10px;
+}
+
+.input_group {
+    margin-bottom: 2px;
+}
+.input_group input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 4px;
+}
