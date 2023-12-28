@@ -243,3 +243,8 @@ li, a {
     color: white;
 }
 
+.user_container_admin {
+    background-color: white;
+    padding: 10px 10px 0 10px;
+    border-radius: 20px;
+}

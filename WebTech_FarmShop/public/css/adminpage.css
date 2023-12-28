@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:ital,wght@0,300;1,400&family=Roboto+Mono:wght@100&display=swap');
+
+:root {
+    --main-color: #417544;
+    --mainbackground-color: #4f8150;
+    --special-container-color: #417544;
+}
+
+body {
+    background-color: var(--mainbackground-color);
+}
+
+.user_information_con {
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
