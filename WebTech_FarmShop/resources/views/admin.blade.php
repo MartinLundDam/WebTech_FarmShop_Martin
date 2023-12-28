@@ -40,7 +40,7 @@
         </div>
     </div>
     <div>
-        <div style="padding-left: 15px">
+        <div style="padding-left: 15px; padding-bottom: 50px">
             <h1>Change product</h1>
             @foreach($data[2] as $item)
             @include('components.updateProduct')
